@@ -8,6 +8,15 @@
 </head>
 <body>
 
+
+ <!-- 使用者驗證資訊 -->
+  <% if notice %>
+    <p class="alert alert-success"><%= notice %></p>
+  <% end %>
+  <% if alert %>
+    <p class="alert alert-danger"><%= alert %></p>
+  <% end %>
+  <!-- 使用者驗證資訊 -->
 <%= yield %>
 
 </body>
