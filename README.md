@@ -39,4 +39,3 @@
 
 * Deploy 上 Heroku
 * 程式碼放上 Github
-* 每週二晚上 Code Review
