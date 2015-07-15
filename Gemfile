@@ -51,3 +51,6 @@ gem 'bootstrap-sass', '~> 3.3.5'
 
 # use navbar
 gem 'rails_bootstrap_navbar'
+
+#密鑰隱藏功能
+gem "settingslogic"

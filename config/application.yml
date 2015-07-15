@@ -1,0 +1,14 @@
+defaults: &defaults
+  app_name: "Rails Newbie"
+  facebook_app_id: "等會會輸入"
+  facebook_secret: "等會會輸入"
+
+development:
+  <<: *defaults
+  domain: "http://rails-newbie.dev"
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
