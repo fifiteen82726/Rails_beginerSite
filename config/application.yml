@@ -1,11 +1,11 @@
 defaults: &defaults
   app_name: "Rails Newbie"
-  facebook_app_id: "等會會輸入"
-  facebook_secret: "等會會輸入"
+  facebook_app_id: "1612237352363217"
+  facebook_secret: "f27c5b23c9fa2723e388f56f32319981"
 
 development:
   <<: *defaults
-  domain: "http://rails-newbie.dev"
+  domain: "http://localhost"
 
 test:
   <<: *defaults

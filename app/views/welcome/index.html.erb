@@ -1,6 +1,9 @@
 
 <%= render "layouts/navbar" %>
+<br>
+<%= link_to("Facebook Login", Settings.domain + user_omniauth_authorize_path(:facebook)) %>
 
+<%= link_to("Facebook Login", "#") %>
 
 <div
   class="fb-like"

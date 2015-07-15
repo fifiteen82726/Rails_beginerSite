@@ -54,3 +54,9 @@ gem 'rails_bootstrap_navbar'
 
 #密鑰隱藏功能
 gem "settingslogic"
+
+
+#facebook-login
+gem "omniauth"
+gem "omniauth-facebook"
+gem "auto-facebook", "0.42"
