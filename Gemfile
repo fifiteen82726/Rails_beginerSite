@@ -44,3 +44,10 @@ gem 'spring',        group: :development
 # 使用者認證
 gem 'devise'
 gem 'bcrypt'
+
+# bootstrap
+gem 'bootstrap-sass', '~> 3.3.5'
+#gem 'sass-rails', '>= 3.2'
+
+# use navbar
+gem 'rails_bootstrap_navbar'
