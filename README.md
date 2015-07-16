@@ -1,3 +1,6 @@
+#Heroku link
+https://intelligent-madame-5204.herokuapp.com/
+
 # 專案名稱： Rails新手村網站
 
 ## 主旨：收集 Rails 有用 Link
@@ -39,3 +42,5 @@
 
 * Deploy 上 Heroku
 * 程式碼放上 Github
+
+
