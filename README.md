@@ -16,7 +16,7 @@ https://intelligent-madame-5204.herokuapp.com/
 
 * 使用者可以填入網址，網站自動抓標題和簡介  http://embed.ly/docs/tutorials/jquery_preview
 * 使用者可以在每則網址下面留言 https://github.com/jackdempsey/acts_as_commentable
-* 作者和討論者可以在有人留言時，就收到留言更新 http://mailgun.com
+* 作者和討論者可以在有人留言時，就收到留言更新 http://mailgun.com   http://notifyjs.com/
 
 ## RSS
 
