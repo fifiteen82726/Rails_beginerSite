@@ -4,6 +4,36 @@
 	<div class="row">
 		<div class="col-md-12">
 			<h1> Rails Tutorail</h1>
+			<!-- POST	 -->
+			<div class="container">
+  <div class="row">
+    <div class=" col-md-6 col-xs-12">
+      <div class="well well-sm well-social-post">
+        <form>
+          <ul class="list-inline" id='list_PostActions'>
+            <li class='active'> <strong> Write Rails tutorial resource </strong></li>
+           <!--  <li><a href='#'>Add photos/Video</a></li>
+            <li><a href='#'>Create photo album</a></li> -->
+          </ul>
+          <textarea class="form-control" placeholder="What's in your mind?"></textarea>
+          <ul class='list-inline post-actions'>
+            <li class='pull-right'>
+				<%= link_to "Post", '#', class: 'btn btn-primary btn-xs'%>
+            	<!-- <a href="#" class=>Post</a> -->
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>                                                            
+	
+
+			<!-- POST結束	 -->
+
+
+
+
 			<% @posts.each do |posts|  %>
 			<blockquote>
 				<h3>
