@@ -156,9 +156,7 @@ $(function () {
 });
 
 
-
-
-  (function(w, d){
+ (function(w, d){
    var id='embedly-platform', n = 'script';
    if (!d.getElementById(id)){
      w.embedly = w.embedly || function() {(w.embedly.q = w.embedly.q || []).push(arguments);};
@@ -168,3 +166,4 @@ $(function () {
      s.parentNode.insertBefore(e, s);
    }
   })(window, document);
+
