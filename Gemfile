@@ -51,3 +51,9 @@ gem 'bootstrap-sass', '~> 3.3.5'
 
 # use navbar
 gem 'rails_bootstrap_navbar'
+
+gem "querystring"
+
+#gem 'embedly-ruby'
+
+gem 'embedly'

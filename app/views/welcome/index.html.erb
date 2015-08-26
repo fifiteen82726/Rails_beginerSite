@@ -1,8 +1,26 @@
 
 
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h1> Rails Tutorail</h1>
+			<% @posts.each do |posts|  %>
+			<blockquote>
+				<h3>
+					<%= posts.title %>
+				</h3> 
+				<small>
+					written by <%= posts.author %>
+				</small>
 
+				<p>
+					<%= posts.content %>
+				</p>
+			</blockquote>
+			
+			<% end %>
+			
+		</div>
+	</div>
+</div>
 
-<h2>Hello World</h2>
-<p>
-  The time is now: <%= Time.now %>
-</p>
